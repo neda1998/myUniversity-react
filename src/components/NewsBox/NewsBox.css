@@ -1,0 +1,88 @@
+.news-box {
+    margin-top: 1rem;
+    padding: 0 1rem 0 0;
+}
+
+.news-box ul {
+    list-style: none;
+    margin: 0 0 1rem;
+    padding: 0;
+    overflow: auto;
+    display: inline-flex;
+    width: 100%;
+}
+
+.news-box ul li {
+    width: 180px;
+    flex: 0 0 180px;
+    background: var(--box-color);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-inline-end: 1rem;
+    box-shadow: 0 0 4px #1c2d4014;
+}
+
+.news-box ul li img {
+    width: 100%;
+    height: 120px;
+}
+
+.news-box ul li img {
+    width: 100%;
+    height: 120px;
+}
+
+.content-box .news-box ul li .footer {
+    margin: 0.5rem 0.5rem 0;
+    border-top: 1px solid var(--base-color);
+    font-size: .625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    color: var(--secondary-text-color);
+}
+
+.news-box ul li .footer a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.news-box ul li .footer {
+    margin: 0.5rem 0.5rem 0;
+    border-top: 1px solid var(--base-color);
+    font-size: .625rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    color: var(--secondary-text-color);
+}
+
+.news-box ul li h3 {
+    margin: 0.5rem 0.5rem 1rem;
+    color: var(--primary-text-color);
+    font-size: .75rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.news-box ul li img {
+    width: 100%;
+    height: 120px;
+}
+
+.news-box ul li {
+    width: 180px;
+    flex: 0 0 180px;
+    background: var(--box-color);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-inline-end: 1rem;
+    box-shadow: 0 0 4px #1c2d4014;
+}

@@ -1,0 +1,102 @@
+.notification-box {
+  border-radius: 4px;
+  background-color: var(--notice-color);
+  position: relative;
+  margin-top: 4px;
+  border: 1px solid rgba(19, 123, 244, 0.08);
+  box-shadow: 0 0 4px #1c2d4029;
+  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
+}
+
+.notification-box:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--notice-color);
+  position: absolute;
+  z-index: 1;
+  transform: rotate(2deg);
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 4px #282a5a14;
+}
+
+.notification-box::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: var(--notice-color);
+  position: absolute;
+  z-index: 1;
+  transform: rotate(-2deg);
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+}
+
+.body-box {
+  position: inherit;
+  z-index: 10;
+  padding: 1rem 1.875rem;
+  box-shadow: 2px 7px 4px #282a5a1a;
+}
+
+.count-box {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count-box span {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.close-box {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.close-box svg {
+  font-size: 24px;
+  color: var(--secondary-text-color);
+}
+
+.text-new h5 {
+  color: var(--primary-text-color);
+  margin: 0 1rem 1rem;
+}
+
+.notification-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--secondary-text-color);
+  font-size: 0.875rem;
+}
+
+.body-box button {
+  display: block;
+  background: var(--secondary-color);
+  color: var(--white-color);
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  font-weight: 500;
+  margin-top: 2rem;
+}

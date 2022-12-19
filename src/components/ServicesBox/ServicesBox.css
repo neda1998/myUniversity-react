@@ -1,0 +1,50 @@
+.service-box {
+    margin-top: 2rem;
+}
+
+.service-box h3{
+    margin: 0 0 1rem;
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.service-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    gap: 0.5rem;
+}
+
+.service-box ul li {
+    height: 88px;
+    background-color: var(--box-color);
+    border-radius: 20px;
+    padding: 0.5rem;
+    color: var(--primary-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: center;
+    font-size: .875rem;
+    cursor: pointer;
+    margin-bottom: 8px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0.5px solid var(--base-color);
+    box-shadow: 0 3px 2px #1c2d4066;
+}
+
+.service-box ul li.disabled{
+    color: var(--disable-color);
+    box-shadow: 0 1px 4px #1c2d4029;
+}
+
+.service-box ul li p {
+    margin: 0;
+    font-weight: 500;
+}
