@@ -1,6 +1,6 @@
-# test-react
+# myUniversity-react
   ## Desktop
-![test-react-desktop-compressed](https://github.com/neda1998/test-react/blob/main/src/assets/images/demo.png)
+![myUniversity-react-desktop-compressed](https://github.com/neda1998/myUniversity-react/blob/main/src/assets/images/demo.png)
 
 
 
