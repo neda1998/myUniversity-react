@@ -5,7 +5,7 @@ import NewsBox from './components/NewsBox/NewsBox';
 import NewText from './components/NewText/NewText';
 import ServicesBox from './components/ServicesBox/ServicesBox';
 import Slider from './components/Slider/Slider';
-import StickyMenu from './StickyMenu/StickyMenu';
+import StickyMenu from './components/StickyMenu/StickyMenu';
 
 function App() {
   return (

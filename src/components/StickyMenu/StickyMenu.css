@@ -1,0 +1,42 @@
+.tab-bar {
+  border-top: 1px solid var(--base-color);
+  background: var(--box-color);
+  box-shadow: 0 -2px 8px #1c2d4014;
+  width: 144px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 15px 0 16px 0;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.tab-bar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button-inner {
+  color: var(--primary-color);
+}
+
+.icon-uni {
+  color: var(--primary-color);
+}
+
+.button-native {
+  color: var(--secondary-text-color);
+}
+
+.button-native svg {
+  fill: var(--secondary-text-color);
+}
+
+.text-menu {
+  color: #000;
+}

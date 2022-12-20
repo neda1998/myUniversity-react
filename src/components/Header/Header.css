@@ -1,10 +1,12 @@
 .header {
   background: var(--bg-white);
   box-shadow: 0 2px 2px 0px rgb(31 50 64 / 25%);
-  padding: 8px 20px 5px 0;
+  padding: 8px 31px 5px 14px;
   z-index: 1;
   position: relative;
   width: 100%;
+  display: grid;
+  grid-template-columns:repeat(2,minmax(0,1fr)) ;
 }
 
 .header-content {

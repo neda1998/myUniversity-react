@@ -48,3 +48,15 @@
     margin: 0;
     font-weight: 500;
 }
+
+@media screen and (max-width:576px) {
+    .service-box ul {
+    grid-template-columns: repeat(1,minmax(0,1fr));
+    }
+}
+
+@media screen and (max-width:992px) {
+    .service-box ul {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
